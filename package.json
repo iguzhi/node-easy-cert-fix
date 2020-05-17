@@ -1,13 +1,12 @@
 {
-  "name": "node-easy-cert-fix",
-  "version": "1.3.3",
+  "name": "node-cert",
+  "version": "1.3.4",
   "description": "A tool for managing self-signed certifications",
   "main": "dist/index.js",
   "scripts": {
     "test": "sh test/test.sh",
     "lint": "eslint ./src",
-    "build": "npm run lint && node gulpfile.js",
-    "prepublish": "npm run build && npm run test"
+    "build": "node gulpfile.js"
   },
   "repository": {
     "type": "git",
